@@ -1,0 +1,1 @@
+[13-Jan-2016 01:54:33 UTC] PHP Parse error:  syntax error, unexpected 'extends' (T_EXTENDS) in /home/ubuntu/workspace/ParentPortal/app/views/login.blade.php on line 11

@@ -1,0 +1,183 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Feb 20, 2015, 11:23:36 AM
+    Author     : dustin
+*/
+
+.btn-lesson {
+    background-color: #d58512;
+    border-color: #b92c28;
+    width: 100px;
+    color: #fff;
+    font-weight: bolder;    
+}
+
+.btn-lesson:hover,.btn-lesson:focus,.btn-lesson:active {
+    background-color: #d43f3a;
+    color: #fff;
+}
+
+#courseview {
+    border: none !important;
+}
+
+.viewCourse {
+    cursor: pointer;
+}
+
+#courseview-header > table {
+    width: 100%;
+}
+
+.fcol {
+    width: 60%;
+}
+
+.ncol {
+    width: 20%;
+    text-align: center;
+    font-weight: bold;
+}
+
+.list-group > li.subject-header {
+    background-color: #f0ad4e; color: #fff;
+}
+
+.lessonset {
+    width: 100%;
+    border: none !important;
+}
+
+.lessonset > tbody > tr {
+    cursor: pointer;
+}
+
+#lessonview {
+    margin-top: 1em;
+    width: 100%;
+    display: inline-block;
+}
+
+#lessonbtns {
+    width: 30%;
+    float:left;
+}
+
+#lessonbtns > center > div {
+    margin-bottom: 1em;
+}
+
+#lessonbtns > center > div > button {
+    width: 80%;
+    font-size: 100%;
+}
+
+#lessonContent {
+    width: 80%;
+}
+
+#testview {
+/*    width: 100%;
+    height: 520px;*/
+}
+
+.question, .explain, #results {
+    height: 500px;
+    display: none;
+    position: relative;
+}
+
+#qControls {
+    float:right;
+}
+
+.iQid {
+    font-size: 0.8em;
+    font-weight: bolder;
+}
+
+.langBtn {
+    background-color: #d58512;
+    margin-right: 1em;
+    color: #fff;
+    font-size: 0.8em;
+    padding: 0.2em;
+    font-weight: bolder;
+}
+
+.langBtn:hover,.langBtn:focus,.langBtn:active {
+    background-color: #d43f3a;
+    color: #fff;
+}
+
+.currQuestion {
+    display: block !important;
+}
+
+.testNext, .testPrev {
+    visibility: hidden;
+    display: none;
+    float: left;
+    height: 40px;
+    margin-right: 0.5em;
+    width: 115px;
+}
+
+.btn-test,.testNext,.testPrev {
+    background-color: #d58512;
+    border-color: #b92c28;
+    line-height: 0px;
+    color: #fff;
+    font-weight: bolder;    
+}
+.btn-test:hover,.btn-test:active,
+.testNext:hover,.testPrev:active{
+    background-color: #d43f3a;
+    color: #fff;
+}
+
+.btn-test:focus {
+    color: #fff;
+}
+
+#results {
+    height: 100% !important;
+}
+
+#resultsPanel {
+    width: 70%;
+    margin: 0 auto;
+}
+
+#resultsTitle {
+    font-size: 2em;
+    font-weight: bolder;
+}
+
+.resultRow {
+    display:inline-block;
+    border-top: 0px;
+    width: 100%;
+}
+
+.rItemLbl {
+
+}
+.rItemVal {
+}
+
+#numUnanswered, #numCorrect, #numIncorrect, #timeSpent {
+    font-size: 1.2em;
+}
+
+#overallScore {
+    /*background-color:#f0ad4e; color: #FFF;*/
+    font-size: 3em;
+/*    margin: 0 !important;
+    padding: 0 !important;*/
+    /*height: 100%;*/
+}
